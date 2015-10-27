@@ -1,0 +1,69 @@
+.highlight {
+  color:orange
+}
+
+.parts-of-box {
+    font-family: serif;
+    color:chartreuse;
+}
+
+aside.highlight {
+    background-color: black;
+}
+
+#homepage {
+    width: 80%;
+    margin: auto;
+    border: 2px solid black;
+}
+
+a:hover {
+    color:red;
+    font-size: 2em;
+} 
+
+h1:hover {
+    color: aqua;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+header {
+    width: 50%;
+    margin: auto;
+    text-align: left;
+}
+
+article {
+    width: 30%;
+    margin: auto;
+    text-align: left;
+}
+
+article p::first-letter {
+      font-size: 10.5em;
+}
+
+footer {
+    border: 2px dashed black;
+    border-radius: 25px;
+    padding: inherit;
+} 
+
+header img { 
+    width: 50%;
+    border: 3px dashed pink;
+}
+
+/* more specific takes prescedent and more recent takes precedence, which is lower in the page*/
+
+nav a {
+    text-decoration: line-through;
+}
+
+a { 
+    text-decoration: none; 
+}
+
