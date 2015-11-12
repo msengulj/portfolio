@@ -1,4 +1,5 @@
-* { box-sizing: border-box; 
+* { 
+  box-sizing: border-box; 
 }
 
 body {
@@ -10,19 +11,27 @@ header {
     margin: auto;
     text-align: center;
 }
-
-header {
-    margin: auto;
-}
-    
     
 h1 { 
     color: darksalmon;
     text-transform: uppercase;
-    font-family: "oswald", sans-serif;
+    font-family: 'Dosis', sans-serif;
     font-weight: 300;
     text-align: center;
-    letter-spacing: -3;
+}
+
+h2 {
+    color:black;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 200;
+}
+
+h3 {
+    color:black;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 200;
+    font-size: 2em;
+    text-decoration: none;
 }
 
 /* CSS for the site-title and site-description on masthead/header */
@@ -33,12 +42,6 @@ h1 {
     padding-top: 2rem;
     margin: 1.5rem;  
 } 
-
-h2 {
-    color:black;
-    font-family: "Oswald", "Helvetica", sans-serif;
-    font-weight: 200;
-}
 
 .site-description {
     font-size: 1.7rem;
@@ -90,39 +93,41 @@ nav a:visited {
 
 /* End of Nav bar CSS */
 
+/* Start of main body .title About CSS */
 
- /*-- Making .title of page fixed and going to try and get the content to scroll under it, in the CSS */
-
-/* start of main body title */
-
-.title {
-    position: fixed;
-    top: 2rem;
-    left: 4rem;
-    
+h3 .title {
+    float: left;
+    padding-top: 5rem;
+    padding-left: 7rem;
+    padding: 4rem;
+    font-family: 'Dosis', Sans-serif;  
+    color: black;
+    text-decoration: none;
 }
 
 /*Start of the main-page content that goes under "About" */
 
-.main-page { 
+section { 
     clear: both;
     float: left;
-    margin: .5rem;
-    width: 25rem;
+    width: 60%;
+    margin: 1rem;
 }
 
 section p {
-    padding-left: 2em;
+    padding-left: 5em;
     padding-right: 2em;
     padding-top: .5em;
     padding-bottom: .5em;
 }
+
+section p a:link {
+    color: coral;
+    text-decoration: none;
+}
   
-h3 {
-    color:black;
-    font-family: "Oswald", "Helvetica", sans-serif;
-    font-weight: 200;
-    font-size: 2em;
+section p a:hover {
+    text-decoration: underline;
 }
 
 section h3 {
@@ -131,11 +136,20 @@ section h3 {
     margin: auto;
 }
 
-.photo {
+/* Start of CSS for photo */
+
+aside {
     clear: both;
     float: right;
     width: 30%;
 }
+
+aside img {
+    width: 65%;
+    border: 1em;
+}
+
+/* CSS for footer */
 
 .footer {
     clear: both;
