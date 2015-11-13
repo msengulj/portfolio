@@ -1,13 +1,19 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 body {
     background-color: ivory;
 =======
+=======
+>>>>>>> master
 * { 
   box-sizing: border-box; 
 }
 
 body {
     background-color: whitesmoke;
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 } 
 
@@ -16,6 +22,7 @@ header {
     margin: auto;
     text-align: center;
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 .highlight {
@@ -42,6 +49,8 @@ header {
     padding: 0;
     overflow: hidden;
 =======
+=======
+>>>>>>> master
     
 h1 { 
     color: darksalmon;
@@ -95,15 +104,21 @@ h3 {
     text-decoration: none;
     font-weight: 300;
     font-family: "Oswald",sans-serif;
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 }
 
 .main-navigation li {
     float: left;
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
 
 =======
+=======
+>>>>>>> master
     list-style: none;
     display: block;
     padding-left: 2.3rem;
@@ -197,11 +212,15 @@ aside img {
 
 
 /*
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 .main-navigation a:link, a:visited {
     display: block;
     width: 100%;
     color: #FFFFFF;
+<<<<<<< HEAD
 <<<<<<< HEAD
     background-color: lightcoral;
     text-align: center;
@@ -217,6 +236,8 @@ h1, h2, h3, h4, h5, h6 {
     clear: both;
     font-family: "Oswald",sans-serif;
 =======
+=======
+>>>>>>> master
     background-color: darksalmon;
     padding: 1em;
     text-transform: uppercase;
@@ -234,6 +255,9 @@ h1, h2, h3, h4, h5, h6 {
 h1, h2, h3, h4, h5, h6 {
     clear: both;
     font-family: "Oswald", sans-serif;
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
     font-weight: 300;
     letter-spacing: 1px;
@@ -249,6 +273,7 @@ h2 {
 }
 
 h3 {
+<<<<<<< HEAD
 <<<<<<< HEAD
     color: lightcoral;
 }
@@ -269,6 +294,8 @@ nav a {
 }
 
 =======
+=======
+>>>>>>> master
     color: black;
 }
 
@@ -314,15 +341,21 @@ p {
 }
 
 
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 a { 
     text-decoration: none; 
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 article {
     padding:1;
 =======
+=======
+>>>>>>> master
 a:hover {
     text-decoration: underline;
 }
@@ -336,6 +369,9 @@ section {
     float:left;
     padding: 10rem;
     margin: 1rem;
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
     width: 60%;
     margin: auto;
@@ -343,12 +379,15 @@ section {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 footer {
     width: 60%;
     margin: auto;
     text-align: center
     padding: inherit;
 =======
+=======
+>>>>>>> master
 aside .photo {
     float: left;
     width: 40%;
@@ -362,13 +401,20 @@ footer {
     padding-bottom: 3rem;
     margin: .5rem;
     text-align: center;
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 } 
 
 header img { 
     width: 70%;
 <<<<<<< HEAD
+<<<<<<< HEAD
     border: 3px line black;
+=======
+    border: 2px line black;
+>>>>>>> master
 =======
     border: 2px line black;
 >>>>>>> master
@@ -377,9 +423,15 @@ header img {
 .title {
     font-style: italic;
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
 
 /* more specific takes prescedent and more recent takes precedence, which is lower in the page*/
+=======
+} */
+
+
+>>>>>>> master
 =======
 } */
 
