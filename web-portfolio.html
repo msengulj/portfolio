@@ -3,29 +3,75 @@
 
 <head>
   <meta charset="utf-8">
-  <meta name="Monika Sengul-Jones" content="Web Portfolio">
-  <title>Monika Sengul-Jones, Web Portfolio</title>
-</head>
+  <meta name="Monika Sengul-Jones" content="WebDev_Resources">
+  <title>Useful Web Development Resources</title>
+   <!-- Latest compiled and modified CSS from bootstrap goes in <head> -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+<!-- Latest compiled and modified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  
+  <!-- my own css files would go after, so that your own would override them -->
+  
   
 <body>
-  
   <header>
-    <hgroup>
+      <p>
         <h1>Monika Sengul-Jones</h1>
         <h2>Academic, Educator, Organizer, Web Developer</h2>
-    </hgroup>
+      </p>
+   
+<!-- commenting out my old nav bar  
     <nav>
-      <ul>
-        <li><a href="../portfolio/index.html">About</a></li>
-        <li><a href="research.html">Research</a></li>
+      <ul class="nav nav-tabs">
+     <li role="presentation" class="active"><a href="#"><a href="../portfolio/index.html">About</a></li>
+        <li role="presentation" class="active"><a href="#"><a href="research.html">Research</a></li>
+        <li role="presentation" class="active"><a href="#"><a href="publications.html">Publications</a></li>
+       <li role="presentation" class="active"><a href="#"><a href="leadership.html">Leadership</a></li>
+        <li role="presentation" class="active"><a href="#"><a href="teaching.html">Teaching</a></li>
+       <li role="presentation" class="active"><a href="#"><a href="web-portfolio.html">Web Portfolio</a></li>
+      <li role="presentation" class="active"><a href="#"><a href="contact.html">Contact</a></li>
+      <li role="presentation" class="active"><a href="#"><a href="webdev-resources.html">Web Development Resources</a></li>
+      </ul>
+   </nav> -->
+  
+  
+  <nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">About</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="research.html">Research </a></li>
         <li><a href="publications.html">Publications</a></li>
         <li><a href="leadership.html">Leadership</a></li>
-        <li><a href="teaching.html">Teaching</a></li>
-        <li><a href="web-portfolio.html">Web Portfolio</a></li>
-        <li><a href="contact.html">Contact</a></li>
+        <li><a href="publications.html">Web Development</a></li>
+        <li class="dropdown">
+          <a href="teaching.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Teaching<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="teaching.html">Lectures</a></li>
+            <li><a href="teaching.html">Syllabi</a></li>
+            <li><a href="teaching.html">Teaching Statement</a></li>        
       </ul>
-    </nav>
-  </header>
+     <li><a href="contact.html">Contact</a></li>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+</header>
   
   <article>
     <header>
@@ -40,9 +86,11 @@
       </p>
   </article>
   
-  <footer>
-    <a href="http://www.facebook.com/sengulmonika"><image src="images/facebook.png" alt="Facebook icon"></a>
-    <p>Contact: jones.monika at gmail.com</p>
+  
+  <footer class="footer">
+    <div class="container"> 
+      <p class="text-muted"><a href="http://www.facebook.com/sengulmonika"><image src="images/facebook.png" alt="Facebook icon"></a></p>
+      <p>Contact: jones.monika at gmail.com</p></div>
   </footer>
 
 </body>
