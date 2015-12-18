@@ -1,14 +1,10 @@
 body {
-    background-color: ivory;
+    background-color: white;
 }
 
 * { 
   box-sizing: border-box; 
 }
-
-body {
-    background-color: whitesmoke;
-} 
 
 header {
     width: 100%;
@@ -18,6 +14,15 @@ header {
 
 .highlight {
   color:orangered
+}
+
+.offscreen {
+  position: absolute;
+  left:-10000px;
+  top:auto;
+  width:1px;
+  height:1px;
+  overflow: hidden;
 }
 
 .site-title {
@@ -171,12 +176,12 @@ section h3 {
 aside {
     clear: both;
     float: right;
-    width: 30%;
+    width: 20%;
 }
 
 aside img {
     width: 65%;
-    border: 1em;
+    border: 1px solid black;
 }
 
 /* CSS for footer */
